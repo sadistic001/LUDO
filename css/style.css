@@ -1,0 +1,335 @@
+html{
+	background-size: cover;
+	background: no-repeat url("../ressources/background.jpg");
+	
+}
+
+
+#selectionLang{
+	margin-top: 5px;
+	display:  inline-block;
+	padding: 15px 25px ;
+	font: italic 400% FreeSerif , cursive ;
+	font-weight: normal;
+	text-align: center;
+
+}
+
+#logo{
+
+	max-width:190px;
+	max-height:190px;
+	border:  1px solid black;
+  	margin-bottom: 50px;
+
+}
+
+#frEn{
+	margin: 0px 40% 20px 45%;
+	color: white;
+	padding: 10px 15px ;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: normal;
+	display:  inline-block;
+}
+
+#blocLang{
+	margin: 0% 30% 5% 30%;
+	background-color: #ff5050;
+	border-radius: 50px;
+	border: 1px solid grey;
+	
+} 
+
+#accueilConsult{
+	display:  inline-block;
+	padding: 60px 65px  ;
+	background-color: #a6a6a6;
+	border-radius: 15px;
+	border: 2px solid #666666;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 50px;
+	font-weight: normal;
+	float: right;
+	margin-top: 100px;
+	margin-right: 150px;
+}
+
+
+#accueilStart{
+	display:  inline-block;
+	padding: 60px 65px ;
+	background-color: #a6a6a6;
+	border-radius: 15px;
+	border: 2px solid #666666;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 50px;
+	font-weight: normal;
+	float: left;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+
+#return{
+	max-width:150px;
+	max-height:150px;
+	position:absolute; 
+	bottom: 10px; 
+	left:10px;
+}
+
+#corps{
+	display:  inline-block;
+	padding: 60px 65px ;
+	background-color: #a6a6a6;
+	border-radius: 15px;
+	border: 2px solid #666666;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: normal;
+	position: absolute;
+	top: 15%;
+	left: 37%;
+	right: 37%;
+}
+
+
+
+#button{
+
+	border-radius:12px 0 12px 0;
+	background: #4d4d4d;
+	border:none;
+	color: white;
+	font:bold 12px Verdana;
+	font-size: 25px;
+	padding:10px 10px 10px 10px;
+	box-shadow:2px 2px 3px black;
+	float: right;
+	margin-top: 50px;
+
+}
+
+#loginConnex{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	
+}
+
+#liste,#login,#passe{
+	height: 30px;
+	margin-left: 2px;
+	
+}
+
+#remember{
+
+    border-radius: 4px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+#souvenir{
+	font: italic 20px FreeSerif , cursive ;
+	margin-left: 30px; 
+
+}
+
+#title{
+
+	font-style: oblique;
+	font-weight: bold;
+	font-stretch: ultra-expanded;
+	margin-bottom: 30px;
+	margin-top: 0px; 
+}
+
+#corpsProfil{
+	background: url("../ressources/background_profil.jpg" ) ; 
+	background-size: cover;
+}
+
+#nameJou{
+	color: white;
+	font-size: 40px;
+	margin-left: 200px;
+}
+
+#bodyJou{
+	color: white;
+	font-size: 30px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 50px;
+	float: left;
+}
+
+#newPwd{
+	font: italic 20px FreeSerif , cursive ;
+	color: black ;
+	display:  inline-block;
+	padding: 60px 65px ;
+	background-color: #a6a6a6;
+	border-radius: 15px;
+	border: 2px solid #666666;
+	float: right;
+	margin-right: 200px;
+	margin-top: 80px;
+	line-height: 30px;
+}
+
+#logout{
+	position:absolute; 
+	top: 20px; 
+	right:20px;
+	color: lightgrey;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#logoutAccueil{
+	position:absolute; 
+	top: 20px; 
+	right:20px;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#lister{
+	margin-bottom: 90px;
+}
+
+#button2{
+
+	border-radius:12px 0 12px 0;
+	background: #4d4d4d;
+	border:none;
+	color: white;
+	font:bold 8px Verdana;
+	font-size: 15px;
+	padding:7px 7px 7px 7px;
+	box-shadow:2px 2px 3px black;
+	margin-bottom: 5px;
+
+}
+
+#grille{
+	text-align: center;
+
+}
+
+#des1{
+	position: absolute;
+	left: 30%;
+	bottom: 7%;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+#des2{
+	position: absolute;
+	right: 30%;
+	top: 27%;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+#croix{
+	position: absolute;
+	left: 15%;
+	top: 5%;
+}
+
+#player1{
+	position: absolute;
+	left: 26%;
+	bottom: 3.5%;
+	display:  inline-block;
+	padding: 13px 15px ;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	vertical-align: middle;
+}
+#play1{
+	position: absolute;
+	left: 26%;
+	bottom: 3.5%;
+	display:  inline-block;
+	color: red;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+#player2{
+	position: absolute;
+	left: 70%;
+	top: 23.5%;
+	display:  inline-block;
+	padding: 13px 15px ;
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+#croixfin{
+	height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+}
+
+#restart{
+	height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 9%;
+    bottom: 8%;
+}
+
+#winner{
+
+	margin-top: 5px;
+	display:  inline-block;
+	padding: 25px 35px ;
+	font: italic 400% FreeSerif , cursive ;
+	font-weight: bold;
+	margin: 0% 30% 1% 33%;
+	background-color: gold ;
+	border-radius: 5px;
+	border: 1px solid grey;
+	
+}
+
+#loser{
+	text-align: center; 
+	color: black;
+	font:  250%  oblique ;
+	font-weight: bold;
+	text-shadow: 1.5px 1.5px lightgrey;
+}
+
+#score{
+	display:  inline-block;
+	padding: 25px 35px ;
+	margin: 1% 30% 0% 45%;
+	background-color: lightgrey ;
+	border-radius: 5px;
+	border: 1px solid grey;
+
+}
